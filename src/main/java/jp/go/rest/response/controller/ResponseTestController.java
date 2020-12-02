@@ -26,7 +26,7 @@ public class ResponseTestController {
 		 
 		 Field field = new ResposeDto().getClass().getField("val");
 		 
-		 map.put(field.getName(), responseDto.getVal());
+		 map.put("test", responseDto.getVal());
 		 map.put("val2", "345");
 		
 		System.out.println(responseDto);
